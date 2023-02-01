@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!--
     <types>
         <members>*</members>
         <name>ApexClass</name>
@@ -28,9 +30,58 @@
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
+    -->
+
     <types>
         <members>*</members>
-        <name>StaticResource</name>
+        <name>ApprovalProcess</name>
     </types>
+    
+    <types>
+        <members>Research_Proposal__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Research_Proposal_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Group</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <types>
+        <members>Custom: Sales Profile</members>
+        <members>Research Manager</members>        
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>Research_Proposal_Approvers</members>
+        <name>Queue</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+
+    <types>
+        <members>UserManagement</members>
+        <name>Settings</name>
+    </types>
+
+    <!--types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types-->
+
     <version>56.0</version>
 </Package>
